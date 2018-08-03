@@ -6,7 +6,7 @@ command-line argument, and print only non-blank lines onto the standard output.
 '''
 def isListOfInts(l):
     if type(l) is not list:
-        raise ValueError("arg not of <list> type")
+        raise ValueError("{0} - arg not of <list> type".format(l))
     flag  = True
     for i in l:
         if type(i) is int:
