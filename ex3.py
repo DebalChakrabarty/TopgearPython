@@ -10,3 +10,15 @@ exception, with the error message 'arg not of <list> type'
 To test correctness of the function isListOfInts(),implement the function testList()
 which is called as shown below and should produce output as indicated.
 '''
+
+import sys
+def isWhiteLine(s):
+    s.strip()
+    if s=="":
+        return True
+    else:
+        return False
+with open(sys.argv[1]) as f:
+    content = f.readLines()
+    if isWhiteLine(content) is not True:
+    print(content)
