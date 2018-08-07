@@ -1,3 +1,7 @@
+''' 8. Create a suitable data construct to read the data from an xml document '''
+
+
+
 import  xml.etree.ElementTree as ET
 
 tree = ET.parse('book.xml')

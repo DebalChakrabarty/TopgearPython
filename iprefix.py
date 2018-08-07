@@ -1,3 +1,7 @@
+''' 7. Write program to convert prefix/net mask to IP
+eg: input:16  output: 255.255.0.0 '''
+
+
 def convert(n):
 	a = n//8
 	b = n%8
